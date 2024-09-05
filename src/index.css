@@ -19,6 +19,13 @@
   src: url("./assets/fonts/Cirka-Variable.ttf");
 }
 
+:root {
+  --background: 15 15 15;
+  --text: 255 255 255;
+}
+
 body {
   font-family: "Cirka", serif;
+  background: rgb(var(--background) / 1);
+  color: rgba(var(--text) / 1);
 }
